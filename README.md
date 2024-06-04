@@ -4,51 +4,30 @@ Avaliação da primeira sprint do programa de bolsas Compass UOL para formação
 
 ***
 
-## Execução (Código Fonte)
+![image](https://github.com/Compass-pb-aws-2024-ABRIL/sprint-1-pb-aws-abril/assets/117688731/e0d9a1d7-f22c-4b42-a2d7-83db857ea76e)
 
-Faça um sistema em JavaScript para verificação de PIN (Personal Identification Number). O sistema contará com dicas que informarão se o usuário está colocando um número próximo, maior ou menor que o correto.
+## Sobre o Projeto
 
-**Especificações**:
+Este projeto apresenta uma aplicação que permite aos usuários testarem sua sorte ao tentarem adivinhar números aleatórios de quatro dígitos. 
 
-Passo a passo para iniciar o projeto:
+Um número é gerado aleatoriamente dentro do intervalo de 1000 a 9999, os usuários podem então inserir um número no campo de entrada para compará-lo com o número sorteado. Ao clicar no botão "Verificar Número", o sistema compara os números e fornece um feedback com base na diferença entre eles. 
+ 
+- Se o número digitado não possuir quatro dígitos, uma mensagem indica que o usuário deve informar um número com exatamente quatro dígitos.
+- Se o número digitado estiver dentro de um intervalo de 200 do número sorteado (100 unidades maior ou 100 unidades menor), uma mensagem indica que o número informado está "um pouco maior" ou "um pouco menor" que o número gerado aleatoriamente.
+- Se o número estiver além desse intervalo, uma mensagem informa que o número está "muito maior" ou "muito menor" que o número sorteado.
+- Se o número digitado for exatamente igual ao número sorteado, uma mensagem de parabéns é exibida.
 
-1. Clone o repositório.
-2. Crie a branch para subir seu código.
-2. Crie um arquivo para colocar seu programa JavaScript (.js).
-3. Desenvolva o código, que deverá conter as seguintes características:
-    - solicite ao usuário que insira um número de no mínimo **quatro dígitos**;
-    - verifique se o número inserido é maior ou menor que o valor esperado (que pode ser fixo ou randômico);
-    - caso seja o valor correto, imprima na tela uma mensagem de parabéns;
-    - caso contrário, indique ao usuário se o próximo valor deve ser maior, muito maior, menor ou muito menor que o informado.
-4. Após testado na máquina local, suba os arquivos de código e o README no GitHub.
-5. Ao escrever o comentário do commit, utilize os Commits Semânticos: https://blog.geekhunter.com.br/o-que-e-commit-e-como-usar-commits-semanticos/ 
+Além disso, há um botão "Sortear Outro Número" que permite ao usuário gerar outros números aleatórios para novas tentativas.
 
-*Dica 1: lembre de adicionar debug no seu código para ajudá-lo a identificar e corrigir erros.*
-*Dica 2: Se a geração do número for randômica, lembre de visualizar o número gerado para acelerar o teste.*
+## Desenvolvimento
 
+O projeto foi desenvolvido utilizando HTML, CSS e JavaScript. A lógica, como a geração do número aleatório e a comparação com o número inserido pelo usuário, foi implementada em JavaScript. O HTML foi utilizado para estruturar a interface do usuário, enquanto o CSS foi empregado para estilizar os elementos.
 
-***
+## Dificuldades 
 
-## O que será avaliado?
+Durante o desenvolvimento do projeto, a principal dificuldade encontrada foi a centralização dos elementos utilizando CSS.
 
-- Em JavaScript, conforme proposta
-- Seguir as atividades na ordem proposta
-- Organização geral do código fonte
-  - Estrutura de pastas
-  - Estrutura da logica de negócio
-  - Otimização do código fonte (evitar duplicações de código)
-- Objetividade do README.md
+## Como usar
 
-***
-
-## Entrega
-
-- Seguir a regra: **o trabalho deve ser individual**;
-- Criar uma branch no repositório com o formato nome-sobrenome (Exemplo: daniel-muller);
-- Subir o trabalho na branch com um README.md:
-  - documentar detalhes sobre como a avaliação foi desenvolvida;
-  - apresentar as dificuldades conhecidas;
-  - explicar como utilizar o sistema;
-- 🔨 colocar o código fonte desenvolvido (Sugestão: pasta `src`);
-- O prazo de entrega é até às 14h do dia 29/04/2024 no repositório do github ([https://github.com/Compass-pb-aws-2024-ABRIL/sprint-1-pb-aws-abril](https://github.com/Compass-pb-aws-2024-ABRIL/sprint-1-pb-aws-abril)).
-
+1. **Baixar os Arquivos:** Inicie baixando os três arquivos necessários para a aplicação, localizados na pasta  `src`: `index.html`, `styles.css`, e `script.js`.
+2. **Abrir o Arquivo HTML:** Abra o arquivo `index.html` utilizando qualquer navegador web. Isso carregará a página da aplicação em seu navegador, pronta para uso.
