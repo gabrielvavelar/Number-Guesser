@@ -1,4 +1,4 @@
-# Avaliação Sprint 1 - Programa de Bolsas Compass UOL / AWS - ABRIL/2024
+<h1 align="center"> 🤔 Number Guesser</h1>
 
 Avaliação da primeira sprint do programa de bolsas Compass UOL para formação em machine learning para AWS.
 
@@ -31,3 +31,6 @@ Durante o desenvolvimento do projeto, a principal dificuldade encontrada foi a c
 
 1. **Baixar os Arquivos:** Inicie baixando os três arquivos necessários para a aplicação, localizados na pasta  `src`: `index.html`, `styles.css`, e `script.js`.
 2. **Abrir o Arquivo HTML:** Abra o arquivo `index.html` utilizando qualquer navegador web. Isso carregará a página da aplicação em seu navegador, pronta para uso.
+
+## Autor
+- [Gabriel Avelar](https://github.com/GabrielAvelarbr)
