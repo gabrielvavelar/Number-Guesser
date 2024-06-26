@@ -23,10 +23,6 @@ Além disso, há um botão "Sortear Outro Número" que permite ao usuário gerar
 
 O projeto foi desenvolvido utilizando HTML, CSS e JavaScript. A lógica, como a geração do número aleatório e a comparação com o número inserido pelo usuário, foi implementada em JavaScript. O HTML foi utilizado para estruturar a interface do usuário, enquanto o CSS foi empregado para estilizar os elementos.
 
-## Dificuldades 
-
-Durante o desenvolvimento do projeto, a principal dificuldade encontrada foi a centralização dos elementos utilizando CSS.
-
 ## Como usar
 
 1. **Baixar os Arquivos:** Inicie baixando os três arquivos necessários para a aplicação, localizados na pasta  `src`: `index.html`, `styles.css`, e `script.js`.
