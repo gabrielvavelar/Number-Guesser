@@ -1,7 +1,5 @@
 <h1 align="center"> 🤔 Number Guesser</h1>
 
-Avaliação da primeira sprint do programa de bolsas Compass UOL para formação em machine learning para AWS.
-
 ***
 
 ![image](https://github.com/Compass-pb-aws-2024-ABRIL/sprint-1-pb-aws-abril/assets/117688731/e0d9a1d7-f22c-4b42-a2d7-83db857ea76e)
