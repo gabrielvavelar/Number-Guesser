@@ -27,4 +27,4 @@ O projeto foi desenvolvido utilizando HTML, CSS e JavaScript. A lógica, como a 
 2. **Abrir o Arquivo HTML:** Abra o arquivo `index.html` utilizando qualquer navegador web. Isso carregará a página da aplicação em seu navegador, pronta para uso.
 
 ## Autor
-- [Gabriel Avelar](https://github.com/GabrielAvelarbr)
+- [Gabriel Avelar](https://github.com/gabrielvavelar)
